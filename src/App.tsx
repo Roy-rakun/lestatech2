@@ -83,29 +83,24 @@ export default function App() {
             {/* Subtitles */}
             <div className="space-y-4 max-w-2xl">
               <p className="text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed font-light">
-                Solusi digital, AI, dan analitik data untuk bisnis yang menuntut presisi dan hasil nyata.
+                Kami membangun Solusi Ai, analitik data, dan sistem digital untuk membantu pengambilan keputusan lebih cepat, efisien dan teratur.
               </p>
               
-              {/* Secondary Subheading */}
-              <p className="text-[#f15a24] font-medium italic text-sm sm:text-base md:text-lg font-sans">
-                Driven by Innovation, Powered by Technology.
-              </p>
             </div>
 
             {/* CTA Controls buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <button
-                onClick={() => scrollToSection("work")}
-                className="bg-[#f15a24] hover:bg-[#ff6c37] text-white py-3 px-8 rounded-md font-bold text-xs uppercase tracking-wider transition-all duration-200 shadow-lg shadow-orange-600/10 hover:-translate-y-0.5 active:translate-y-0 text-center cursor-pointer"
-              >
-                EXPLORE OUR WORK
-              </button>
-              
-              <button
                 onClick={() => scrollToSection("contact")}
                 className="border border-white hover:bg-white/10 text-white py-3 px-8 rounded-md font-bold text-xs uppercase tracking-wider transition-all duration-200 text-center cursor-pointer"
               >
-                GET IN TOUCH
+                Schedule Consultation
+              </button>
+              <button
+                onClick={() => scrollToSection("work")}
+                className="bg-[#f15a24] hover:bg-[#ff6c37] text-white py-3 px-8 rounded-md font-bold text-xs uppercase tracking-wider transition-all duration-200 shadow-lg shadow-orange-600/10 hover:-translate-y-0.5 active:translate-y-0 text-center cursor-pointer"
+              >
+                VIEW OUR WORKS
               </button>
             </div>
 
