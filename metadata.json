@@ -1,0 +1,6 @@
+{
+  "name": "PT Lestari Surya Technology",
+  "description": "Website company profile PT Lestari Surya Technology yang responsive dengan background video Mux dan navigasi interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

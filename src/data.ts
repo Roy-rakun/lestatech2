@@ -1,0 +1,130 @@
+import { Service, Project, CaseStudy, Testimonial } from "./types";
+
+export const SERVICES: Service[] = [
+  {
+    id: "solusi-digital",
+    title: "Solusi Digital",
+    description: "Kami membangun platform web, seluler, dan infrastruktur cloud berskala perusahaan (enterprise-scale) yang sangat aman, andal, dan siap menyambut pertumbuhan bisnis masa depan.",
+    iconName: "Cpu",
+    details: [
+      "Enterprise Web & Mobile Applications",
+      "Cloud Infrastructure & Migration (GCP, AWS)",
+      "IoT Custom Solutions & Edge Computing Integration"
+    ]
+  },
+  {
+    id: "artificial-intelligence",
+    title: "Artificial Intelligence",
+    description: "Membantu bisnis mengadopsi kekuatan Kecerdasan Buatan untuk otomatisasi proses cerdas, computer vision, serta model kustom yang disesuaikan dengan kebutuhan komersial Anda.",
+    iconName: "BrainCircuit",
+    details: [
+      "Natural Language Processing (NLP) & Smart Agents",
+      "Computer Vision & Automated Visual Inspection",
+      "Custom Machine Learning Pipeline Development"
+    ]
+  },
+  {
+    id: "analitik-data",
+    title: "Analitik Data",
+    description: "Mengubah miliaran data mentah menjadi wawasan bisnis prediktif. Buat keputusan strategis yang presisi lewat dasbor real-time dan analisis statistik tingkat lanjut.",
+    iconName: "BarChart3",
+    details: [
+      "Predictive Analytics & Real-time Dashboards",
+      "Big Data Engineering & Secure Storage Architectures",
+      "Business Intelligence System Integration (BI)"
+    ]
+  }
+];
+
+export const PROJECTS: Project[] = [
+  {
+    id: "proj-1",
+    title: "Smart Solar IoT Dashboard",
+    category: "IoT & Solusi Digital",
+    description: "Sistem pemantauan pembangkit listrik tenaga surya real-time berbasis IoT yang mengoptimalkan distribusi listrik.",
+    imageUrl: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=800&auto=format&fit=crop",
+    stats: { label: "Peningkatan Efisiensi", value: "24%" },
+    tags: ["React", "IoT", "TimescaleDB", "GCP"]
+  },
+  {
+    id: "proj-2",
+    title: "AI-Powered Visual Inspector",
+    category: "Computer Vision & AI",
+    description: "Sistem deteksi cacat produksi otomatis berkecepatan tinggi menggunakan computer vision untuk jalur perakitan elektronik.",
+    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
+    stats: { label: "Akurasi Deteksi", value: "99.8%" },
+    tags: ["PyTorch", "OpenCV", "Kubernetes", "C++"]
+  },
+  {
+    id: "proj-3",
+    title: "Enterprise Predictive Logistics",
+    category: "Analitik Data & ML",
+    description: "Sistem analitik cerdas yang memprediksi kemacetan rantai pasok dan dinamika rute pengiriman logistik nasional.",
+    imageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop",
+    stats: { label: "Biaya Bahan Bakar", value: "-15%" },
+    tags: ["Python", "TensorFlow", "BigQuery", "Looker"]
+  },
+  {
+    id: "proj-4",
+    title: "Enterprise ERP for Corporate",
+    category: "Web & Mobile Dev",
+    description: "ERP untuk standar perusahaan berskala besar yang menyatukan alur kerja manufaktur, keuangan real-time, manajemen gudang otomatis, dan integrasi rantai pasokan global ke dalam satu ekosistem digital yang responsif.",
+    imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop",
+    stats: { label: "Efisiensi Operasional", value: "+35%" },
+    tags: ["React Native", "TypeScript", "PostgreSQL", "Docker"]
+  }
+];
+
+export const CASE_STUDIES: CaseStudy[] = [
+  {
+    id: "case-1",
+    title: "Refining business strategy and decision making structure.",
+    subtitle: "merancang kemampuan dalam membuat keputusan bisnis yang sustainable.",
+    client: "PT Global Optima Abadi",
+    impact: "+76% Efisiensi Corporate Budget",
+    background: "PT Global Optima Abadi membutuhkan arah bisnis dan positioning brand yang lebih terstruktur untuk mendukung pertumbuhan perusahaan.",
+    challenge: "Strategi bisnis belum terdefinisi dengan jelas, serta manajemen perusahaan yang belum konsisten, sehingga menghambat efektivitas ekspansi.",
+    solution: "Melakukan analisis menyeluruh terhadap model bisnis dan segmentasi pasar, serta merancang ulang strategi branding and workflow manajemen yang lebih terarah, terukur, dan berkelanjutan.",
+    results: [
+      "Terbentuknya identitas perusahaan yang lebih jelas",
+      "Peningkatan konsistensi manajemen perusahaan",
+      "Sistem operasional yang memungkinkan pengambilan keputusan secara lebih cepat dan tepat"
+    ],
+    imageUrl: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    id: "case-2",
+    title: "Seguguk Ogan Ilir Apps (Sumatera Selatan)",
+    subtitle: "Meningkatkan akses informasi lokal serta memberdayakan potensi UMKM Ogan Ilir.",
+    client: "Seguguk Ogan Ilir",
+    impact: "Optimalisasi Layanan & UMKM",
+    background: "Pengembangan platform mobile application untuk meningkatkan akses informasi serta memaksimalkan potensi UMKM di wilayah Ogan Ilir, Sumatera Selatan.",
+    challenge: "Keterbatasan sistem dalam menyajikan informasi secara terintegrasi dan mudah diakses oleh masyarakat, sehingga menghambat pemanfaatan potensi lokal secara optimal.",
+    solution: "Merancang dan mengembangkan aplikasi yang terstruktur dan user-friendly, dengan kemampuan mengintegrasikan berbagai kebutuhan informasi dalam satu platform yang terpusat.",
+    results: [
+      "Meningkatkan aksesibilitas informasi masyarakat secara luas",
+      "Meningkatkan efisiensi alur pelayanan publik dan UMKM lokal",
+      "Menghadirkan pengalaman pengguna yang optimal dalam mengakses seluruh potensi dan layanan lokal"
+    ],
+    imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop"
+  }
+];
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: "test-1",
+    name: "Ir. Handoto Wibowo",
+    role: "Director of Digital Infrastructure",
+    company: "PT Bakti Nusantara",
+    content: "PT Lestari Surya Technology adalah sedikit dari mitra teknologi lokal yang mengutamakan presisi ilmiah. Dasbor analitik serta model AI yang mereka kembangkan berdampak instan terhadap profitabilitas proyek nasional kami.",
+    avatarUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop"
+  },
+  {
+    id: "test-2",
+    name: "Ratna Sari, M.Kom.",
+    role: "Head of Data Engineering",
+    company: "Apex Tech Venture",
+    content: "Sangat terkesan dengan tingkat pemahaman arsitektur cloud mereka. Migrasi sistem lama kami ke infrastruktur cloud baru berjalan zero-downtime, sangat aman, dan langsung memotong biaya operasional server bulanan hampir 40%.",
+    avatarUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop"
+  }
+];
