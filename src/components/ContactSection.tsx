@@ -230,8 +230,7 @@ export default function ContactSection() {
 
                 {/* Message field */}
                 <div className="space-y-1.5">
-                  <label className="block text-[10px] font-bold text-slate-500 font-mono uppercase tracking-widest" htmlFor="input-message">Jelaskan tantangan, tujuan, atau
-kebutuhan yang ingin Bisnis Anda capai</label>
+                  <label className="block text-[10px] font-bold text-slate-500 font-mono uppercase tracking-widest" htmlFor="input-message">Detail Tantangan Bisnis Anda</label>
                   <textarea
                     id="input-message"
                     required
