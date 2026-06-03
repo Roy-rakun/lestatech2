@@ -44,27 +44,27 @@ export const SERVICES: Service[] = [
 export const PROJECTS: Project[] = [
   {
     id: "proj-1",
-    title: "Smart Solar IoT Dashboard",
+    title: "Real Time Energy Monitoring Platform",
     category: "IoT & Solusi Digital",
-    description: "Sistem pemantauan pembangkit listrik tenaga surya real-time berbasis IoT yang mengoptimalkan distribusi listrik.",
+    description: "Membantu operator pembangkit listrik memantau performa energi secara real-time untuk meningkatkan efisiensi distribusi dan mengurangi kehilangan daya.",
     imageUrl: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=800&auto=format&fit=crop",
     stats: { label: "Peningkatan Efisiensi", value: "24%" },
     tags: ["React", "IoT", "TimescaleDB", "GCP"]
   },
   {
     id: "proj-2",
-    title: "AI-Powered Visual Inspector",
+    title: "Automated Defect Detection System",
     category: "Computer Vision & AI",
-    description: "Sistem deteksi cacat produksi otomatis berkecepatan tinggi menggunakan computer vision untuk jalur perakitan elektronik.",
+    description: "Mengurangi risiko produk cacat lolos ke distribusi melalui inspeksi visual otomatis dengan akurasi hingga 99.8%.",
     imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
     stats: { label: "Akurasi Deteksi", value: "99.8%" },
     tags: ["PyTorch", "OpenCV", "Kubernetes", "C++"]
   },
   {
     id: "proj-3",
-    title: "Enterprise Predictive Logistics",
+    title: "Predictive Supply Chain Optimization",
     category: "Analitik Data & ML",
-    description: "Sistem analitik cerdas yang memprediksi kemacetan rantai pasok dan dinamika rute pengiriman logistik nasional.",
+    description: "Membantu perusahaan logistik mengoptimalkan rute pengiriman dan mengurangi biaya operasional melalui analisis prediktif.",
     imageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop",
     stats: { label: "Biaya Bahan Bakar", value: "-15%" },
     tags: ["Python", "TensorFlow", "BigQuery", "Looker"]
@@ -83,10 +83,10 @@ export const PROJECTS: Project[] = [
 export const CASE_STUDIES: CaseStudy[] = [
   {
     id: "case-1",
-    title: "Refining business strategy and decision making structure.",
-    subtitle: "merancang kemampuan dalam membuat keputusan bisnis yang sustainable.",
+    title: "Enabling Faster and More Consistent Decision-Making.",
+    subtitle: "Membangun fondasi strategi bisnis dan tata kelola yang memungkinkan bisnis bergerak lebih terarah, konsisten, dan efisien.",
     client: "PT Global Optima Abadi",
-    impact: "+76% Efisiensi Corporate Budget",
+    impact: "+76% EFISIENSI CORPORATE BUDGET",
     background: "PT Global Optima Abadi membutuhkan arah bisnis dan positioning brand yang lebih terstruktur untuk mendukung pertumbuhan perusahaan.",
     challenge: "Strategi bisnis belum terdefinisi dengan jelas, serta manajemen perusahaan yang belum konsisten, sehingga menghambat efektivitas ekspansi.",
     solution: "Melakukan analisis menyeluruh terhadap model bisnis dan segmentasi pasar, serta merancang ulang strategi branding and workflow manajemen yang lebih terarah, terukur, dan berkelanjutan.",
@@ -99,8 +99,8 @@ export const CASE_STUDIES: CaseStudy[] = [
   },
   {
     id: "case-2",
-    title: "Seguguk Ogan Ilir Apps (Sumatera Selatan)",
-    subtitle: "Meningkatkan akses informasi lokal serta memberdayakan potensi UMKM Ogan Ilir.",
+    title: "Connecting Communities, Services, and Local Businesses",
+    subtitle: "Memperluas akses informasi publik sekaligus mendukung pertumbuhan UMKM melalui platform digital terintegrasi.",
     client: "Seguguk Ogan Ilir",
     impact: "Optimalisasi Layanan & UMKM",
     background: "Pengembangan platform mobile application untuk meningkatkan akses informasi serta memaksimalkan potensi UMKM di wilayah Ogan Ilir, Sumatera Selatan.",
