@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Send, Mail, Phone, Clock, CheckCircle2 } from "lucide-react";
 import MuxBackgroundVideo from "./MuxBackgroundVideo";
 
 export default function ContactSection() {
