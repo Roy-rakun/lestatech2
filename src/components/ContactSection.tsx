@@ -79,10 +79,10 @@ export default function ContactSection() {
                 <span className="w-10 h-[1.5px] bg-orange-500/80" />
               </div>
               <h2 className="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
-                Mari Diskusikan Proyek <span className="text-[#f15a24] italic">Hebat Anda</span>
+                Mari Diskusikan Tantangan  <span className="text-[#f15a24] italic">Bisnis Anda</span>
               </h2>
               <p className="text-slate-600 text-sm md:text-base leading-relaxed font-light">
-                Butuh studi kelayakan otomatisasi, integrasi kecerdasan buatan cerdas, atau optimalisasi analitik data berskala besar? Tim insinyur kami siap membantu menyusun rencana strategis terbaik.
+                Tim kami siap membantu merancang solusi yang sesuai dengan kebutuhan organisasi Anda. Baik untuk digitalisasi proses, implementasi AI, maupun pengembangan sistem berskala enterprise.
               </p>
             </div>
 
@@ -162,8 +162,8 @@ export default function ContactSection() {
               // Form Screen
               <form onSubmit={handleSubmit} className="space-y-6 text-left">
                 <div className="space-y-1.5 border-b border-slate-100 pb-4">
-                  <h3 className="text-xl font-bold text-slate-900">Kirim Permintaan Konsultasi Gratis</h3>
-                  <p className="text-xs text-slate-500">Silakan isi formulir di bawah ini dengan lengkap untuk rincian janji temu.</p>
+                  <h3 className="text-xl font-bold text-slate-900">Jadwalkan Sesi Konsultasi Strategis</h3>
+                  <p className="text-xs text-slate-500">Ceritakan kebutuhan Bisnis Anda dan tim kami akan menghubungi Anda untuk mendiskusikan pendekatan yang paling sesuai.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -213,24 +213,25 @@ export default function ContactSection() {
 
                   {/* Service preference selector */}
                   <div className="space-y-1.5">
-                    <label className="block text-[10px] font-bold text-slate-500 font-mono uppercase tracking-widest" htmlFor="input-service">Topik Layanan</label>
+                    <label className="block text-[10px] font-bold text-slate-500 font-mono uppercase tracking-widest" htmlFor="input-service">Area Kebutuhan</label>
                     <select
                       id="input-service"
                       value={formData.serviceType}
                       onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
                       className="w-full bg-slate-50 border border-slate-200 py-3.5 px-4 rounded-xl text-slate-900 text-sm focus:outline-none focus:border-[#f15a24] focus:bg-white transition-all appearance-none cursor-pointer"
                     >
-                      <option className="bg-white text-slate-900" value="Solusi Digital">Solusi Digital (Web, IoT, Cloud)</option>
-                      <option className="bg-white text-slate-900" value="Artificial Intelligence">Artificial Intelligence (AI & Vision)</option>
-                      <option className="bg-white text-slate-900" value="Analitik Data">Analitik Data & Dashboard</option>
-                      <option className="bg-white text-slate-900" value="Lainnya">Lainnya / Diskusi Kolaborasi</option>
+                      <option className="bg-white text-slate-900" value="Solusi Digital">Digital Transformation</option>
+                      <option className="bg-white text-slate-900" value="Artificial Intelligence">AI Automation</option>
+                      <option className="bg-white text-slate-900" value="Analitik Data">Data & Business Intelligence</option>
+                      <option className="bg-white text-slate-900" value="Lainnya">Belum Yakin / Perlu Konsultasi</option>
                     </select>
                   </div>
                 </div>
 
                 {/* Message field */}
                 <div className="space-y-1.5">
-                  <label className="block text-[10px] font-bold text-slate-500 font-mono uppercase tracking-widest" htmlFor="input-message">Detail Tantangan Bisnis Anda</label>
+                  <label className="block text-[10px] font-bold text-slate-500 font-mono uppercase tracking-widest" htmlFor="input-message">Jelaskan tantangan, tujuan, atau
+kebutuhan yang ingin Bisnis Anda capai</label>
                   <textarea
                     id="input-message"
                     required
