@@ -139,7 +139,7 @@ export default function ContactSection() {
       </div>
     </div>
   </div>
-</div>
+</div></div>
 
           {/* Right Column: Contact Interactive Form */}
           <div className="lg:col-span-7 bg-white/85 border border-slate-200 backdrop-blur-lg rounded-[32px] p-6 md:p-10 shadow-lg relative">
