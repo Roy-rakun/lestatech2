@@ -66,7 +66,7 @@ kompetitif melalui Solusi digital, AI dan analitik data.
 
                 {/* Tech Highlights checklist */}
                 <div className="space-y-3 pt-6 border-t border-slate-100">
-                  <p className="text-[10px] font-mono font-bold text-slate-400 tracking-wider uppercase mb-1">Kemampuan Teknis:</p>
+                  <p className="text-[10px] font-mono font-bold text-slate-400 tracking-wider uppercase mb-1">Solusi yang Kami hadirkan:</p>
                   {srv.details.map((detail, idx) => (
                     <div key={idx} className="flex items-start space-x-2.5">
                       <CheckCircle className="h-4 w-4 text-[#f15a24] flex-shrink-0 mt-0.5" />
@@ -83,7 +83,7 @@ kompetitif melalui Solusi digital, AI dan analitik data.
                 onClick={onContactClick}
                 className="w-full mt-10 bg-[#f15a24] hover:bg-[#ff6c37] text-white py-3 px-4 rounded-md font-bold text-xs uppercase tracking-wider transition-all duration-200 cursor-pointer shadow-md shadow-orange-600/10 text-center"
               >
-                Konsultasikan Sekarang
+                Discuss With Us
               </button>
 
             </div>
