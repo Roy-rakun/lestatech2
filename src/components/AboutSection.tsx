@@ -90,7 +90,7 @@ export default function AboutSection() {
               {/* Exact paragraph matches the screenshot text */}
               <div className="space-y-5 text-slate-600 text-sm md:text-base leading-relaxed font-normal">
                 <p>
-                  Berangkat dari pengalaman strategis tahun 2017, PT Lestari Surya Teknologi adlaah perusahaan teknologi informasi yang hadir untuk membangun sistem digital, pengaplikasian Ai dan analitik data.
+                  Berangkat dari pengalaman strategis tahun 2017, PT Lestari Surya Teknologi adalah perusahaan teknologi informasi yang hadir untuk membangun sistem digital, pengaplikasian Ai dan analitik data.
                 </p>
                 <p>
                   Secara legal berdiri pada Januari 2025, kami merancang pendekatan yang lebih presisi, terukur dan berdampak nyata.
