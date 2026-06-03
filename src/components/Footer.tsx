@@ -40,7 +40,7 @@ export default function Footer({ onNavClick }: FooterProps) {
             </div>
             
             <p className="text-xs text-slate-600 leading-relaxed pt-2 font-light">
-              Bekerja sama lintas disiplin sains untuk merancang masa depan operasional bisnis cerdas terdistribusi yang efisien, dan ramah lingkungan kelestarian.
+              Membangun solusi teknologi yang membantu bisnis bertransformasi, beroperasi lebih cerdas, dan tumbuh secara berkelanjutan.
             </p>
           </div>
 
@@ -51,12 +51,12 @@ export default function Footer({ onNavClick }: FooterProps) {
             </h4>
             <div className="grid grid-cols-1 gap-2.5">
               {[
-                { label: "Home Base", id: "home" },
-                { label: "Siapa Kami", id: "about" },
-                { label: "Layanan Kami", id: "services" },
-                { label: "Portfolio Proyek", id: "work" },
-                { label: "Studi Kasus Lengkap", id: "case-studies" },
-                { label: "Hubungi Spesialis", id: "contact" }
+                { label: "Beranda", id: "home" },
+                { label: "Tentang Kami", id: "about" },
+                { label: "Layanan", id: "services" },
+                { label: "Portfolio", id: "work" },
+                { label: "Studi Kasus", id: "case-studies" },
+                { label: "Hubungi Kami", id: "contact" }
               ].map((link) => (
                 <button
                   key={link.id}
@@ -75,19 +75,19 @@ export default function Footer({ onNavClick }: FooterProps) {
               Solusi Unggulan
             </h4>
             <ul className="space-y-2.5 text-xs text-slate-600 font-light list-none p-0 m-0">
-              <li>Pembangkit Surya Pintar (IoT)</li>
-              <li>Pemeriksa Deteksi Cacat AI Vision</li>
-              <li>Analitik Logistik Prediktif</li>
-              <li>Manajemen Big Data Kargo</li>
-              <li>Otomatisasi ERP Perusahaan</li>
-              <li>Web and Mobile Development</li>
+              <li>Digital Transformation</li>
+              <li>AI Automation</li>
+              <li>Data & Business Intelligence</li>
+              <li>IoT & Smart Systems</li>
+              <li>Enterprise Software Development</li>
+              <li>Cloud & Infrastructure Solutions</li>
             </ul>
           </div>
 
           {/* Security & Contacts info */}
           <div className="space-y-4 text-left">
             <h4 className="text-[10px] font-bold tracking-[0.2em] text-slate-900 uppercase font-mono">
-              Hubungan Global
+              Kontak
             </h4>
             <div className="space-y-3.5 text-xs text-slate-600 font-light font-sans">
               <div className="flex items-start space-x-2">
