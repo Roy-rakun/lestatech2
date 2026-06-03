@@ -165,7 +165,7 @@ export default function AboutSection() {
           <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight text-white font-sans">
             We Don’t Just Build Technology. <br />
             <span className="text-slate-200 font-light text-xl sm:text-2xl md:text-3xl block mt-3 max-w-3xl mx-auto leading-relaxed">
-              We Design Clarity, Structure, and Growth” -> “We help organizations transform ideas
+              We help organizations transform ideas
 into systems, data into insights and accelerate growth through intelligent digital
 solutions.
             </span>
