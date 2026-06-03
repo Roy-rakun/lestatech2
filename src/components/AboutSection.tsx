@@ -163,17 +163,19 @@ export default function AboutSection() {
         
         <div className="relative z-20 max-w-5xl mx-auto space-y-6">
           <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight text-white font-sans">
-            We don't just build systems. <br />
+            We Don’t Just Build Technology. <br />
             <span className="text-slate-200 font-light text-xl sm:text-2xl md:text-3xl block mt-3 max-w-3xl mx-auto leading-relaxed">
-              We design clarity, structure, and growth.
+              We Design Clarity, Structure, and Growth” -> “We help organizations transform ideas
+into systems, data into insights and accelerate growth through intelligent digital
+solutions.
             </span>
           </h3>
           <div className="pt-6">
             <button 
-              onClick={() => handleScrollTo("contact")}
+              onClick={() => handleScrollTo("services")}
               className="bg-[#f15a24] hover:bg-[#ff6c37] text-white py-4 px-10 rounded-md font-bold text-xs uppercase tracking-wider transition-all duration-200 cursor-pointer shadow-xl shadow-orange-600/20 hover:scale-105 active:scale-98 border-none"
             >
-              LET'S WORK TOGETHER
+              Let’s Work Together
             </button>
           </div>
         </div>
