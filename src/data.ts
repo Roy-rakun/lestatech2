@@ -87,13 +87,13 @@ export const CASE_STUDIES: CaseStudy[] = [
     subtitle: "Membangun fondasi strategi bisnis dan tata kelola yang memungkinkan bisnis bergerak lebih terarah, konsisten, dan efisien.",
     client: "PT Global Optima Abadi",
     impact: "+76% EFISIENSI CORPORATE BUDGET",
-    background: "PT Global Optima Abadi membutuhkan arah bisnis dan positioning brand yang lebih terstruktur untuk mendukung pertumbuhan perusahaan.",
-    challenge: "Strategi bisnis belum terdefinisi dengan jelas, serta manajemen perusahaan yang belum konsisten, sehingga menghambat efektivitas ekspansi.",
-    solution: "Melakukan analisis menyeluruh terhadap model bisnis dan segmentasi pasar, serta merancang ulang strategi branding and workflow manajemen yang lebih terarah, terukur, dan berkelanjutan.",
+    background: "PT Global Optima Abadi berada pada fase pertumbuhan yang membutuhkan arah bisnis, positioning perusahaan, dan struktur pengambilan keputusan yang lebih terdefinisi untuk mendukung ekspansi yang berkelanjutan.",
+    challenge: "Strategi bisnis yang belum terdefinisi secara jelas serta proses manajemen yang belum konsisten menyebabkan pengambilan keputusan dan ekspansi perusahaan berjalan kurang optimal.",
+    solution: "Melakukan evaluasi menyeluruh terhadap model bisnis, segmentasi pasar, dan proses pengambilan keputusan untuk merancang strategi bisnis yang lebih terarah, memperkuat positioning perusahaan, serta membangun kerangka kerja manajemen yang lebih konsisten.",
     results: [
-      "Terbentuknya identitas perusahaan yang lebih jelas",
-      "Peningkatan konsistensi manajemen perusahaan",
-      "Sistem operasional yang memungkinkan pengambilan keputusan secara lebih cepat dan tepat"
+      "Positioning Perusahaan yang lebih jelas untuk mendukung arah pertumbuhan jangka Panjang",
+      "Kerangka manajemen yang lebih konsisten dalam menjalankan strategis bisnis",
+      "Proses pengambilan Keputusan yang lebih cepat dan terstruktur serta tersistematis di seluruh divisi”
     ],
     imageUrl: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1200&auto=format&fit=crop"
   },
@@ -103,13 +103,13 @@ export const CASE_STUDIES: CaseStudy[] = [
     subtitle: "Memperluas akses informasi publik sekaligus mendukung pertumbuhan UMKM melalui platform digital terintegrasi.",
     client: "Seguguk Ogan Ilir",
     impact: "Optimalisasi Layanan & UMKM",
-    background: "Pengembangan platform mobile application untuk meningkatkan akses informasi serta memaksimalkan potensi UMKM di wilayah Ogan Ilir, Sumatera Selatan.",
-    challenge: "Keterbatasan sistem dalam menyajikan informasi secara terintegrasi dan mudah diakses oleh masyarakat, sehingga menghambat pemanfaatan potensi lokal secara optimal.",
-    solution: "Merancang dan mengembangkan aplikasi yang terstruktur dan user-friendly, dengan kemampuan mengintegrasikan berbagai kebutuhan informasi dalam satu platform yang terpusat.",
+    background: "Pemerintah daerah Kabupaten Ogan Ilir membutuhkan platform digital terintegrasi yang mampu memperluas akses informasi publik sekaligus mendukung promosi dan pengembangan UMKM lokal secara lebih efektif.",
+    challenge: "Informasi publik dan potensi UMKM masih tersebar di berbagai kanal, sehingga masyarakat kesulitan memperoleh informasi yang terpusat dan mudah diakses.",
+    solution: "Merancang platform mobile terintegrasi yang menyatukan informasi publik, layanan daerah, dan potensi UMKM dalam satu pengalaman digital yang mudah diakses masyarakat.",
     results: [
-      "Meningkatkan aksesibilitas informasi masyarakat secara luas",
-      "Meningkatkan efisiensi alur pelayanan publik dan UMKM lokal",
-      "Menghadirkan pengalaman pengguna yang optimal dalam mengakses seluruh potensi dan layanan lokal"
+      "Akses informasi Publik yang lebih terpusat dan mudah dijangkau oleh Masyarakat",
+      "Saluran digital yang mendukung promosi dan visibilitas UMKM Lokal secara lebih efektif",
+      "Pengalaman layanan yang lebih sederhana melalui integrasi berbagai kebutuhan infroamsi dalam satu aplikasi"
     ],
     imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop"
   }
