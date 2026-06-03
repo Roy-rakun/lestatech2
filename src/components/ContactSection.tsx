@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Send, MapPin, Mail, Phone, Clock, CheckCircle2 } from "lucide-react";
 import MuxBackgroundVideo from "./MuxBackgroundVideo";
 
 export default function ContactSection() {
@@ -35,12 +34,6 @@ export default function ContactSection() {
   };
 
   const contactDetails = [
-    {
-      icon: <MapPin className="h-5 w-5 text-[#f15a24]" />,
-      label: "Lokasi Kantor",
-      value: "Jakarta, Indonesia",
-      href: null
-    },
     {
       icon: <Mail className="h-5 w-5 text-[#f15a24]" />,
       label: "Email Hubungan Korporat",
@@ -114,27 +107,39 @@ export default function ContactSection() {
               ))}
             </div>
 
-            {/* Map Placeholder Graphic with corporate blue-orange accents */}
-            <div className="p-4 border border-slate-200 rounded-3xl bg-white/70 backdrop-blur-md space-y-3 select-none shadow-sm">
-              <div className="flex items-center justify-between">
-                <span className="text-[9px] font-mono font-bold text-slate-400 uppercase tracking-widest">Jakarta HQ map coordinate</span>
-                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              </div>
-              <div className="relative rounded-2xl overflow-hidden h-36 bg-slate-100 border border-slate-150 flex items-center justify-center">
-                <img
-                  src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=800&auto=format&fit=crop"
-                  alt="City Grid abstract"
-                  className="w-full h-full object-cover opacity-15"
-                  referrerPolicy="no-referrer"
-                />
-                <div className="absolute inset-0 bg-slate-200/10" />
-                <div className="absolute text-center text-slate-800 px-2 space-y-1">
-                  <p className="text-xs font-bold">Jakarta, Indonesia</p>
-                  <p className="text-[10px] font-mono text-slate-500">Lat: -6.2088 &bull; Lng: 106.8456</p>
-                </div>
-              </div>
-            </div>
-          </div>
+            {/* Consultation Response Card */}
+<div className="p-6 border border-slate-200 rounded-3xl bg-white/70 backdrop-blur-md shadow-sm">
+  <div className="space-y-4">
+    <div>
+      <p className="text-[10px] font-mono font-bold text-slate-500 uppercase tracking-widest">
+        Respon Konsultasi
+      </p>
+    </div>
+
+    <div className="space-y-3">
+      <div className="flex items-start gap-3">
+        <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0 mt-0.5" />
+        <span className="text-sm text-slate-700">
+          Balasan dalam 1 Hari Kerja
+        </span>
+      </div>
+
+      <div className="flex items-start gap-3">
+        <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0 mt-0.5" />
+        <span className="text-sm text-slate-700">
+          Konsultasi Awal Tanpa Biaya
+        </span>
+      </div>
+
+      <div className="flex items-start gap-3">
+        <CheckCircle2 className="h-5 w-5 text-emerald-500 flex-shrink-0 mt-0.5" />
+        <span className="text-sm text-slate-700">
+          Pendekatan Disesuaikan Kebutuhan Bisnis Anda
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
 
           {/* Right Column: Contact Interactive Form */}
           <div className="lg:col-span-7 bg-white/85 border border-slate-200 backdrop-blur-lg rounded-[32px] p-6 md:p-10 shadow-lg relative">
@@ -252,7 +257,7 @@ export default function ContactSection() {
                     <span className="inline-block border-2 border-slate-300 border-t-white h-5 w-5 rounded-full animate-spin" />
                   ) : (
                     <>
-                      <span>Kirim Pengajuan Sekarang</span>
+                      <span>DISKUSIKAN KEBUTUHAN ANDA</span>
                       <Send className="h-4 w-4" />
                     </>
                   )}
