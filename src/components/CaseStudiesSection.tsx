@@ -19,10 +19,10 @@ export default function CaseStudiesSection() {
             <span className="w-10 h-[1.5px] bg-orange-500/80" />
           </div>
           <h2 className="text-3xl md:text-5xl font-bold font-sans text-slate-900 tracking-tight">
-            Bagaimana Kami Menulis Kisah <span className="text-[#f15a24] italic">Sukses Klien</span>
+            Tantangan Kompleks. Hasil <span className="text-[#f15a24] italic">Terarah</span>
           </h2>
           <p className="text-slate-600 text-sm md:text-base leading-relaxed font-light font-normal">
-            Menyelami metrik riil, kendala teknis awal, dan rumusan solusi teknologi yang memampukan pertumbuhan berkelanjutan bagi korporasi utama Indonesia.
+            Jelajahi bagaimana kami membantu organisasi dari berbagai sektor menyelesaikan tantangan strategis, operasional, dan digital melalui pendekatan yang terstruktur.
           </p>
         </div>
 
