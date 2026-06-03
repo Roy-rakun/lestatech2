@@ -32,10 +32,12 @@ export default function ServicesSection({ onContactClick }: ServicesSectionProps
             <span className="w-10 h-[1.5px] bg-orange-500/80" />
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-sans text-slate-900 tracking-tight">
-            Arsitektur Solusi Secara <span className="text-[#f15a24] italic">End-to-End</span>
+            Teknologi yang Mendorong <span className="text-[#f15a24] italic"> Pertumbuhan Bisnis</span>
           </h2>
           <p className="text-slate-600 text-sm sm:text-base md:text-lg leading-relaxed font-light">
-            Kami mengintegrasikan keahlian ilmiah komputer dengan pemecahan masalah praktis lapangan untuk mendorong pertumbuhan bisnis Anda secara eksponensial.
+            Kami membantu bisnis meningkatkan
+efisiensi, mempercepat pengambilan keputusan dan menciptakan keunggulan
+kompetitif melalui Solusi digital, AI dan analitik data.
           </p>
         </div>
 
