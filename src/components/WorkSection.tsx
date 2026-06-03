@@ -24,10 +24,10 @@ export default function WorkSection() {
               <span className="w-10 h-[1.5px] bg-orange-500/80" />
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-sans text-slate-900 tracking-tight leading-none">
-              Pekerjaan yang Berbicara <span className="text-[#f15a24] italic">Nyata</span>
+              Dampak Nyata dari Implementasi <span className="text-[#f15a24] italic">Teknologi</span>
             </h2>
             <p className="text-slate-600 text-sm md:text-base leading-relaxed font-light">
-              Jelajahi rekam jejak rekayasa teknologi kami dalam membantu bisnis beralih ke otomatisasi tingkat lanjut dan analisis kritis terintegrasi.
+              Lihat bagaimana solusi teknologi dapat membantu meningkatkan efisiensi, akurasi dan kinerja operasional suatu bisnis.
             </p>
           </div>
 
