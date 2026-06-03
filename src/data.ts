@@ -3,35 +3,40 @@ import { Service, Project, CaseStudy, Testimonial } from "./types";
 export const SERVICES: Service[] = [
   {
     id: "solusi-digital",
-    title: "Solusi Digital",
-    description: "Kami membangun platform web, seluler, dan infrastruktur cloud berskala perusahaan (enterprise-scale) yang sangat aman, andal, dan siap menyambut pertumbuhan bisnis masa depan.",
+    title: "Digital Transformation",
+    description: "Transformasikan proses bisnis menjadi lebih efisien, terukur dan siap berkembang melalui solusi digital yang dirancang sesuai kebutuhan bisnis anda.",
     iconName: "Cpu",
     details: [
-      "Enterprise Web & Mobile Applications",
+      "Sistem Web & Mobile Enterprise",
+      "Portal Pelayanan Publik",
       "Cloud Infrastructure & Migration (GCP, AWS)",
-      "IoT Custom Solutions & Edge Computing Integration"
+      "Erp & Sistem Operasional",
+      "Integrasi IoT & Cloud"
     ]
   },
   {
     id: "artificial-intelligence",
-    title: "Artificial Intelligence",
-    description: "Membantu bisnis mengadopsi kekuatan Kecerdasan Buatan untuk otomatisasi proses cerdas, computer vision, serta model kustom yang disesuaikan dengan kebutuhan komersial Anda.",
+    title: "Artificial Intelligence Automation",
+    description: "Otomatiskan pekerjaan berulang, tingkatkan akurasi operasional, dan percepat pengambilan Keputusan melalui penerapan kecerdasan buatan yang sesuai kebutuhan bisnis Anda.",
     iconName: "BrainCircuit",
     details: [
+      "AI Chatbot & Smart Assitants",
       "Natural Language Processing (NLP) & Smart Agents",
-      "Computer Vision & Automated Visual Inspection",
-      "Custom Machine Learning Pipeline Development"
+      "Computer Vision",
+      "Predictive AI Models",
+      "Workflow Automation"
     ]
   },
   {
     id: "analitik-data",
-    title: "Analitik Data",
-    description: "Mengubah miliaran data mentah menjadi wawasan bisnis prediktif. Buat keputusan strategis yang presisi lewat dasbor real-time dan analisis statistik tingkat lanjut.",
+    title: "Data & Business Intelligence",
+    description: "Mengubah data operasional menjadi insight strategis yang membantu identifikasi peluang dan mengurangi resiko bisnis Anda sehingga dapat mengambil keputusan lebih akurat.",
     iconName: "BarChart3",
     details: [
-      "Predictive Analytics & Real-time Dashboards",
-      "Big Data Engineering & Secure Storage Architectures",
-      "Business Intelligence System Integration (BI)"
+      "Executive Dashboard",
+      "Business Intelligence",
+      "Predictive Analytics",
+      "Data Warehousing"
     ]
   }
 ];
