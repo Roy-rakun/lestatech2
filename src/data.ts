@@ -93,7 +93,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     results: [
       "Positioning Perusahaan yang lebih jelas untuk mendukung arah pertumbuhan jangka Panjang",
       "Kerangka manajemen yang lebih konsisten dalam menjalankan strategis bisnis",
-      "Proses pengambilan Keputusan yang lebih cepat dan terstruktur serta tersistematis di seluruh divisi”
+      "Proses pengambilan Keputusan yang lebih cepat dan terstruktur serta tersistematis di seluruh divisi"
     ],
     imageUrl: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1200&auto=format&fit=crop"
   },
@@ -109,7 +109,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     results: [
       "Akses informasi Publik yang lebih terpusat dan mudah dijangkau oleh Masyarakat",
       "Saluran digital yang mendukung promosi dan visibilitas UMKM Lokal secara lebih efektif",
-      "Pengalaman layanan yang lebih sederhana melalui integrasi berbagai kebutuhan infroamsi dalam satu aplikasi"
+      "Pengalaman layanan yang lebih sederhana melalui integrasi berbagai kebutuhan informasi dalam satu aplikasi"
     ],
     imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop"
   }
