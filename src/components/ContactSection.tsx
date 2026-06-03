@@ -235,7 +235,7 @@ export default function ContactSection() {
                     id="input-message"
                     required
                     rows={4}
-                    placeholder="Tuliskan gambaran singkat tantangan bisnis..."
+                    placeholder="Jelaskan tantangan, tujuan, atau kebutuhan yang ingin Bisnis Anda capai"
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     className="w-full bg-slate-50 border border-slate-200 py-3.5 px-4 rounded-xl text-slate-900 text-sm focus:outline-none focus:border-[#f15a24] focus:bg-white transition-all placeholder:text-slate-400"
