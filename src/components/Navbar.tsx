@@ -52,7 +52,7 @@ export default function Navbar({ activeSection, onNavClick }: NavbarProps) {
     >
       <div id="nav-container" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div id="nav-wrapper" className="flex items-center justify-between h-16">
-          
+
           {/* Logo Brand Section */}
           <div
             id="brand-logo"
@@ -67,10 +67,12 @@ export default function Navbar({ activeSection, onNavClick }: NavbarProps) {
                 referrerPolicy="no-referrer"
                 onError={(e) => {
                   // Fallback if drive icon fails
-                  (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=100";
+                  (e.target as HTMLImageElement).src =
+                    "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=100";
                 }}
               />
             </div>
+
             <div className="flex flex-col select-none">
               <span className="text-base md:text-lg font-bold text-slate-900 tracking-tight leading-none font-sans">
                 PT Lestari Surya Technology
@@ -95,6 +97,7 @@ export default function Navbar({ activeSection, onNavClick }: NavbarProps) {
                 }`}
               >
                 {item.label}
+
                 {/* Active Indicator Underline */}
                 {activeSection === item.id && (
                   <span
@@ -104,6 +107,16 @@ export default function Navbar({ activeSection, onNavClick }: NavbarProps) {
                 )}
               </button>
             ))}
+
+            {/* External Catalog Link */}
+            <a
+              href="https://catalog.lestatech.asia"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-semibold tracking-wider text-slate-600 hover:text-slate-900 transition-all duration-200 relative py-2"
+            >
+              CATALOG
+            </a>
           </div>
 
           {/* Hamburger Menu Toggle Button (Mobile & Tablet) */}
@@ -113,7 +126,11 @@ export default function Navbar({ activeSection, onNavClick }: NavbarProps) {
               className="text-slate-700 hover:text-orange-600 focus:outline-none p-2 rounded-lg hover:bg-slate-50 transition-colors"
               aria-label="Toggle Menu"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </div>
 
@@ -124,10 +141,15 @@ export default function Navbar({ activeSection, onNavClick }: NavbarProps) {
       <div
         id="mobile-drawer"
         className={`lg:hidden fixed inset-x-0 top-[81px] bg-white border-b border-slate-200 shadow-xl transition-all duration-300 ease-in-out z-40 transform ${
-          isOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-4 invisible pointer-events-none"
+          isOpen
+            ? "opacity-100 translate-y-0 visible"
+            : "opacity-0 -translate-y-4 invisible pointer-events-none"
         }`}
       >
-        <div id="mobile-links-wrapper" className="px-5 py-6 space-y-4 bg-slate-50">
+        <div
+          id="mobile-links-wrapper"
+          className="px-5 py-6 space-y-4 bg-slate-50"
+        >
           {navItems.map((item) => (
             <button
               key={item.id}
@@ -140,11 +162,23 @@ export default function Navbar({ activeSection, onNavClick }: NavbarProps) {
               }`}
             >
               <span>{item.label}</span>
+
               {activeSection === item.id && (
                 <span className="w-1.5 h-1.5 bg-orange-600 rounded-full" />
               )}
             </button>
           ))}
+
+          {/* Mobile Catalog Link */}
+          <a
+            href="https://catalog.lestatech.asia"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full text-left px-4 py-3 text-sm font-semibold tracking-wide rounded-lg transition-colors flex items-center justify-between text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+          >
+            <span>CATALOG</span>
+          </a>
+
           <div className="pt-4 border-t border-slate-200 flex justify-center text-[10px] text-slate-400 italic">
             PT Lestari Surya Technology &bull; 2026
           </div>
