@@ -100,7 +100,7 @@ export default function Footer({ onNavClick }: FooterProps) {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-[#f15a24] flex-shrink-0" />
-                <a href="https://wa.me/628113394626" target="_blank" rel="noopener noreferrer" className="hover:text-[#f15a24] transition-colors">+62 811-3394-626</a>
+                <a href="https://wa.me/6287882720643" target="_blank" rel="noopener noreferrer" className="hover:text-[#f15a24] transition-colors">+62 878-8272-0643 </a>
               </div>
             </div>
           </div>
