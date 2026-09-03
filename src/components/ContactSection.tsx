@@ -44,8 +44,8 @@ export default function ContactSection() {
     {
       icon: <Phone className="h-5 w-5 text-[#f15a24]" />,
       label: "WhatsApp / Telepon",
-      value: "+62 811-3394-626",
-      href: "https://wa.me/628113394626"
+      value: "+62 878-8272-0643",
+      href: "https://wa.me/6287882720643"
     },
     {
       icon: <Clock className="h-5 w-5 text-[#f15a24]" />,
