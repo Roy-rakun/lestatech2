@@ -45,29 +45,40 @@ export default function Footer({ onNavClick }: FooterProps) {
           </div>
 
           {/* Quick Navigations */}
-          <div className="space-y-4 text-left">
-            <h4 className="text-[10px] font-bold tracking-[0.2em] text-slate-900 uppercase font-mono">
-              Navigasi Halaman
-            </h4>
-            <div className="grid grid-cols-1 gap-2.5">
-              {[
-                { label: "Beranda", id: "home" },
-                { label: "Tentang Kami", id: "about" },
-                { label: "Layanan", id: "services" },
-                { label: "Portfolio", id: "work" },
-                { label: "Studi Kasus", id: "case-studies" },
-                { label: "Hubungi Kami", id: "contact" }
-              ].map((link) => (
-                <button
-                  key={link.id}
-                  onClick={() => onNavClick(link.id)}
-                  className="text-left text-xs text-slate-600 hover:text-[#f15a24] transition-colors py-0.5 cursor-pointer font-light"
-                >
-                  {link.label}
-                </button>
-              ))}
-            </div>
-          </div>
+<div className="space-y-4 text-left">
+  <h4 className="text-[10px] font-bold tracking-[0.2em] text-slate-900 uppercase font-mono">
+    Navigasi Halaman
+  </h4>
+
+  <div className="grid grid-cols-1 gap-2.5">
+    {[
+      { label: "Beranda", id: "home" },
+      { label: "Tentang Kami", id: "about" },
+      { label: "Layanan", id: "services" },
+      { label: "Portfolio", id: "work" },
+      { label: "Studi Kasus", id: "case-studies" },
+      { label: "Hubungi Kami", id: "contact" }
+    ].map((link) => (
+      <button
+        key={link.id}
+        onClick={() => onNavClick(link.id)}
+        className="text-left text-xs text-slate-600 hover:text-[#f15a24] transition-colors py-0.5 cursor-pointer font-light"
+      >
+        {link.label}
+      </button>
+    ))}
+
+    {/* Catalog */}
+    <a
+      href="https://catalog.lestatech.asia"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-left text-xs text-slate-600 hover:text-[#f15a24] transition-colors py-0.5 cursor-pointer font-light"
+    >
+      Catalog
+    </a>
+  </div>
+</div>
 
           {/* Core Capacities */}
           <div className="space-y-4 text-left">
